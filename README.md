@@ -31,11 +31,6 @@ The Makefile handles **kernel module compilation**, ensuring `gpio_led.o` is com
 - **Control** the LED by writing `0` or `1` to `/sys/class/leds/mycompany:green:myled/brightness`.
 - **Blink** the LED using a **timer** trigger.
 
-### 5) **Next Steps**
-You could extend this with:
-- **Interrupt support** (e.g., a button press).
-- **I²C/SPI sensors** for external inputs.
-- **Power management** for efficiency.
-- **Concurrency handling** (mutexes/spinlocks).
+
 
  
